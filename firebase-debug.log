@@ -1,0 +1,519 @@
+[debug] [2025-12-22T22:57:04.883Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T22:57:04.891Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T22:57:04.945Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T22:57:04.945Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T22:57:04.947Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T22:57:04.947Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T22:57:04.950Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T22:57:05.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T22:57:05.035Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T22:57:05.035Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T22:57:05.036Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T22:57:05.036Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T22:57:05.195Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T22:57:05.195Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T22:57:05.232Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T22:57:05.232Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T22:57:05.234Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T22:57:05.234Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T22:57:05.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T22:57:05.265Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T22:57:05.265Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T22:57:05.265Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T22:57:05.265Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T22:57:05.424Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T22:57:05.425Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T22:57:05.430Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T22:57:05.431Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:03:43.466Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:03:43.472Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:03:43.519Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:03:43.519Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:03:43.521Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:03:43.521Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:03:43.523Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:03:43.606Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:03:43.607Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:03:43.607Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:03:43.607Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:03:43.607Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:03:43.785Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:03:43.786Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:03:43.826Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:03:43.827Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:03:43.832Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:03:43.833Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:03:43.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:03:43.915Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:03:43.916Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:03:43.917Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:03:43.917Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:03:44.151Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:03:44.153Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:03:44.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:03:44.165Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:05:42.465Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:05:42.470Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:05:42.471Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.472Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.473Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:05:42.483Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:05:42.484Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:05:42.484Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.484Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.485Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:05:42.734Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:05:42.734Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:05:42.771Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.771Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.773Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.773Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.801Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.802Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.802Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.802Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:42.803Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-22T23:05:42.803Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:42.806Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-22T23:05:42.806Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:42.808Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-22T23:05:42.808Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:42.810Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [none]
+[debug] [2025-12-22T23:05:42.810Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:43.254Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:05:43.254Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:05:43.257Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.257Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.258Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.259Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.280Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.281Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.282Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.283Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.284Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-22T23:05:43.284Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:43.290Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-22T23:05:43.291Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:43.296Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-22T23:05:43.296Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:43.301Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [none]
+[debug] [2025-12-22T23:05:43.302Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-22T23:05:43.465Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com 403
+[debug] [2025-12-22T23:05:43.465Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [omitted]
+[debug] [2025-12-22T23:05:43.617Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-22T23:05:43.618Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-22T23:05:43.624Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-22T23:05:43.624Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-22T23:05:43.630Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-22T23:05:43.631Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-22T23:05:43.666Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:05:43.667Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:05:43.667Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.668Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.668Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:05:43.841Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:05:43.842Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:05:43.849Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:05:43.849Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:05:43.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:05:43.918Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:05:43.919Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.919Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:05:43.920Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:05:44.049Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com 403
+[debug] [2025-12-22T23:05:44.051Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [omitted]
+[debug] [2025-12-22T23:05:44.103Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:05:44.105Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:05:44.115Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:05:44.116Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:05:44.158Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-22T23:05:44.159Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-22T23:05:44.297Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-22T23:05:44.298Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-22T23:05:44.305Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-22T23:05:44.306Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-22T23:10:24.510Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:10:24.517Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:10:24.572Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:10:24.573Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:10:24.574Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:10:24.575Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:10:24.577Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:10:24.673Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:10:24.674Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:10:24.674Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:10:24.674Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:10:24.674Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:10:24.914Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:10:24.915Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:10:24.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:10:24.919Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:10:24.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:10:24.975Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:10:24.976Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:10:24.976Z] Checked if tokens are valid: true, expires at: 1766446832896
+[debug] [2025-12-22T23:10:24.976Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-22T23:10:25.146Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:10:25.147Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-22T23:10:25.154Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-22T23:10:25.155Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-22T23:10:25.278Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-22T23:10:25.279Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T00:18:52.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T00:18:53.296Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T00:18:53.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T00:18:53.436Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T00:18:53.438Z] Checked if tokens are valid: false, expires at: 1766446832896
+[debug] [2025-12-23T00:18:53.438Z] Checked if tokens are valid: false, expires at: 1766446832896
+[debug] [2025-12-23T00:18:53.439Z] > refreshing access token with scopes: []
+[debug] [2025-12-23T00:18:53.445Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-23T00:18:53.445Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T00:18:53.539Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T00:18:53.539Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T00:18:53.539Z] Checked if tokens are valid: false, expires at: 1766446832896
+[debug] [2025-12-23T00:18:53.540Z] Checked if tokens are valid: false, expires at: 1766446832896
+[debug] [2025-12-23T00:18:53.540Z] > refreshing access token with scopes: []
+[debug] [2025-12-23T00:18:53.540Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-23T00:18:53.541Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T00:18:53.544Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-23T00:18:53.545Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T00:18:53.553Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T00:18:53.576Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-23T00:18:53.576Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T00:18:53.580Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T00:18:53.801Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T00:18:53.801Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T00:18:53.816Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T00:18:53.816Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T00:18:53.818Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T00:18:53.818Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T00:18:53.848Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T00:18:53.848Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T00:18:53.848Z] Checked if tokens are valid: true, expires at: 1766452732576
+[debug] [2025-12-23T00:18:53.848Z] Checked if tokens are valid: true, expires at: 1766452732576
+[debug] [2025-12-23T00:18:53.849Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T00:18:54.027Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T00:18:54.028Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T00:18:54.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T00:18:54.031Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:02:14.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:02:14.591Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:02:14.685Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:02:14.686Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:02:14.688Z] Checked if tokens are valid: false, expires at: 1766452732576
+[debug] [2025-12-23T07:02:14.689Z] Checked if tokens are valid: false, expires at: 1766452732576
+[debug] [2025-12-23T07:02:14.690Z] > refreshing access token with scopes: []
+[debug] [2025-12-23T07:02:14.698Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-23T07:02:14.700Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T07:02:14.875Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-23T07:02:14.876Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T07:02:14.952Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:02:14.960Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:02:14.961Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:02:14.961Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:02:14.961Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:02:14.962Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:02:15.332Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:02:15.332Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:02:15.350Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:02:15.350Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:02:15.352Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:02:15.352Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:02:15.380Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:02:15.381Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:02:15.381Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:02:15.381Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:02:15.381Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:02:15.643Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:02:15.643Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:02:15.649Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:02:15.650Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:05:32.045Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:05:32.067Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:05:32.150Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:05:32.150Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:05:32.154Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:05:32.154Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:05:32.157Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:05:32.306Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:05:32.306Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:05:32.308Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:05:32.308Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:05:32.309Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:05:32.516Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:05:32.517Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:05:32.546Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:05:32.547Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:05:32.549Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:05:32.550Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:05:32.627Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:05:32.628Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:05:32.629Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:05:32.629Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:05:32.630Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:05:33.300Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:05:33.302Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:05:33.307Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:05:33.307Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:15:15.293Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:15:15.337Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:15:15.515Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:15:15.517Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:15:15.525Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:15:15.527Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:15:15.537Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:15:15.870Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:15:15.871Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:15:15.873Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:15:15.874Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:15:15.875Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:15:15.924Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:15:15.937Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:15:16.292Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:15:16.293Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:15:16.312Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:15:16.314Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:15:16.390Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:15:16.391Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:15:16.392Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:15:16.393Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:15:16.399Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:15:16.566Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:15:16.567Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:15:16.575Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:15:16.576Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:21:32.021Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:21:32.042Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:21:32.158Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:21:32.158Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:21:32.162Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:21:32.165Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:21:32.168Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:21:32.328Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:21:32.329Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:21:32.330Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:21:32.330Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:21:32.330Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:21:32.474Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:21:32.476Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:21:32.547Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:21:32.548Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:21:32.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:21:32.550Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:21:32.583Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:21:32.584Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:21:32.584Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:21:32.584Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:21:32.585Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:21:32.857Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:21:32.858Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:21:32.866Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:21:32.866Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:22:57.070Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:22:57.134Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:22:57.135Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:57.136Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:57.139Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:22:57.174Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:22:57.174Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:22:57.175Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:57.175Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:57.175Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:22:58.002Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:22:58.002Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:22:58.098Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.099Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.100Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.100Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.163Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.163Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.169Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.169Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.170Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-23T07:22:58.170Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:58.173Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-23T07:22:58.173Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:58.176Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-23T07:22:58.177Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:58.180Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [none]
+[debug] [2025-12-23T07:22:58.180Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:58.263Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:22:58.264Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:22:58.265Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.265Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.266Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.266Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.293Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.293Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.294Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.295Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:58.295Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-12-23T07:22:58.296Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:58.298Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-12-23T07:22:58.299Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:58.302Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-12-23T07:22:58.302Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:58.310Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [none]
+[debug] [2025-12-23T07:22:58.311Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com x-goog-quota-user=projects/echo-care-legacy-v1
+[debug] [2025-12-23T07:22:59.182Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com 403
+[debug] [2025-12-23T07:22:59.182Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [omitted]
+[debug] [2025-12-23T07:22:59.188Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-23T07:22:59.188Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-23T07:22:59.190Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-23T07:22:59.190Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-23T07:22:59.191Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-12-23T07:22:59.191Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-12-23T07:22:59.192Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com 403
+[debug] [2025-12-23T07:22:59.193Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseio.com [omitted]
+[debug] [2025-12-23T07:22:59.195Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-12-23T07:22:59.196Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-12-23T07:22:59.198Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-23T07:22:59.198Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-23T07:22:59.208Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com 200
+[debug] [2025-12-23T07:22:59.209Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/echo-care-legacy-v1/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-12-23T07:22:59.229Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:22:59.230Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:22:59.230Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:59.230Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:59.231Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:22:59.552Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:22:59.555Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:22:59.567Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:22:59.568Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:22:59.612Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:22:59.613Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:22:59.616Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:59.616Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:22:59.617Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:22:59.861Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:22:59.862Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:22:59.881Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:22:59.882Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:24:45.702Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:24:45.711Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:24:45.776Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:24:45.777Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:24:45.779Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:24:45.781Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:24:45.784Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:24:45.887Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:24:45.888Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:24:45.890Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:24:45.890Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:24:45.890Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:24:46.033Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:24:46.034Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:24:46.091Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:24:46.091Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:24:46.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:24:46.094Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:24:46.140Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:24:46.141Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:24:46.141Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:24:46.141Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:24:46.142Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:24:46.417Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:24:46.417Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:24:46.420Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:24:46.420Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:42:49.261Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:42:49.286Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:42:49.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:42:49.399Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:42:49.400Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:42:49.401Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:42:49.403Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:42:49.804Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:42:49.804Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:42:49.805Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:42:49.805Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:42:49.805Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:42:50.004Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:42:50.005Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:42:50.072Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:42:50.072Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:42:50.074Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:42:50.075Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:42:50.157Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:42:50.158Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:42:50.158Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:42:50.159Z] Checked if tokens are valid: true, expires at: 1766476933876
+[debug] [2025-12-23T07:42:50.159Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:42:50.447Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:42:50.447Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:42:50.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:42:50.450Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:50:49.386Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:50:49.393Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:50:49.441Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:50:49.442Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:50:49.443Z] Checked if tokens are valid: false, expires at: 1766476933876
+[debug] [2025-12-23T07:50:49.444Z] Checked if tokens are valid: false, expires at: 1766476933876
+[debug] [2025-12-23T07:50:49.445Z] > refreshing access token with scopes: []
+[debug] [2025-12-23T07:50:49.448Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-23T07:50:49.448Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T07:50:49.667Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:50:49.668Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:50:49.669Z] Checked if tokens are valid: false, expires at: 1766476933876
+[debug] [2025-12-23T07:50:49.669Z] Checked if tokens are valid: false, expires at: 1766476933876
+[debug] [2025-12-23T07:50:49.669Z] > refreshing access token with scopes: []
+[debug] [2025-12-23T07:50:49.671Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-23T07:50:49.671Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T07:50:49.693Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-23T07:50:49.693Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T07:50:49.713Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:50:49.827Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-23T07:50:49.828Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-23T07:50:49.839Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:50:50.039Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:50:50.042Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:50:50.121Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:50:50.121Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:50:50.128Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:50:50.129Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:50:50.219Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:50:50.220Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-23T07:50:50.221Z] Checked if tokens are valid: true, expires at: 1766479848828
+[debug] [2025-12-23T07:50:50.221Z] Checked if tokens are valid: true, expires at: 1766479848828
+[debug] [2025-12-23T07:50:50.222Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-23T07:50:50.416Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-23T07:50:50.418Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-23T07:50:50.430Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-23T07:50:50.432Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-28T20:07:09.864Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-28T20:07:09.873Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-28T20:07:09.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-28T20:07:09.938Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-28T20:07:09.939Z] Checked if tokens are valid: false, expires at: 1766911975599
+[debug] [2025-12-28T20:07:09.940Z] Checked if tokens are valid: false, expires at: 1766911975599
+[debug] [2025-12-28T20:07:09.940Z] > refreshing access token with scopes: []
+[debug] [2025-12-28T20:07:09.943Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-28T20:07:09.943Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-28T20:07:10.141Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-28T20:07:10.142Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-28T20:07:10.143Z] Checked if tokens are valid: false, expires at: 1766911975599
+[debug] [2025-12-28T20:07:10.143Z] Checked if tokens are valid: false, expires at: 1766911975599
+[debug] [2025-12-28T20:07:10.143Z] > refreshing access token with scopes: []
+[debug] [2025-12-28T20:07:10.145Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-12-28T20:07:10.145Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-28T20:07:10.153Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-28T20:07:10.154Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-28T20:07:10.169Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-28T20:07:10.220Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-12-28T20:07:10.220Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-12-28T20:07:10.229Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-28T20:07:10.540Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-28T20:07:10.542Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-28T20:07:10.984Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-28T20:07:10.985Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-28T20:07:10.995Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-28T20:07:10.996Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-28T20:07:11.095Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-28T20:07:11.096Z] > authorizing via signed-in user (levraipinocchio@gmail.com)
+[debug] [2025-12-28T20:07:11.097Z] Checked if tokens are valid: true, expires at: 1766956029221
+[debug] [2025-12-28T20:07:11.097Z] Checked if tokens are valid: true, expires at: 1766956029221
+[debug] [2025-12-28T20:07:11.098Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo [none]
+[debug] [2025-12-28T20:07:11.789Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo 200
+[debug] [2025-12-28T20:07:11.789Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/echo-care-legacy-v1/billingInfo {"name":"projects/echo-care-legacy-v1/billingInfo","projectId":"echo-care-legacy-v1","billingAccountName":"","billingEnabled":false}
+[debug] [2025-12-28T20:07:11.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-28T20:07:11.793Z] > authorizing via signed-in user (levraipinocchio@gmail.com)

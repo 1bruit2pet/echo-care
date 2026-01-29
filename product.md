@@ -1,14 +1,9 @@
-# Echo-Care Legacy : Vision Produit
+# MEDISTOCK Pro : Stock & Maintenance
 
 ## Mission
-Sauver la mémoire mondiale par le jeu et l'émotion. Transformer les récits de vie des seniors en quêtes interactives 8-bit pour les nouvelles générations.
+Gérer le stock embarqué et tracer les interventions SAV. Passer d'une simple gestion de stock à un journal de maintenance phygital.
 
-## Valeurs Fondamentales
-- **Souveraineté :** Hébergement France (Scaleway), immunité Cloud Act.
-- **Inclusion :** Interface 100% vocale pour les 85+, zéro fracture numérique.
-- **Dignité :** Passer du statut de "patient" à celui de "mentor de la lignée".
-
-## Écosystème Phygital
-1. **Echo-Quest (Software) :** App mobile pour enfants (SaaS 9.90€/mois).
-2. **Echo-Box Pocket (Hardware) :** Console physique style Game Boy (Prix d'appel 19.90€).
-3. **Gazette Collector (Tangible) :** Livre de vie physique imprimé à la demande.
+## Nouvelles Règles métier
+- **Traçabilité Inter :** Toute sortie de stock (décrémentation) doit être liée à un Nom de Client.
+- **Historique :** Les techniciens peuvent voir les 50 dernières pièces posées sur le terrain.
+- **Réappro Flux :** Dépôt SAVJB -> Véhicule (Incrémentation) / Véhicule -> Client (Décrémentation).

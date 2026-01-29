@@ -25,16 +25,17 @@ const App = () => {
   // --- ÉTAT DU JEU & AUTH ---
   const [user, setUser] = useState(null);
   const [playerPos, setPlayerPos] = useState({ x: 2, y: 2 });
-  const [gameState, setGameState] = useState('LOADING'); // LOADING, EXPLORE, DIALOGUE
+  const [gameState, setGameState] = useState('LOADING'); // LOADING, EXPLORE, DIALOGUE, ERROR
   const [inventory, setInventory] = useState([]);
   const [questIndex, setQuestIndex] = useState(0);
   const [syncStatus, setSyncStatus] = useState('synced'); // synced, saving, error
+  const [loadingMessage, setLoadingMessage] = useState('Initialisation...');
 
   // --- CONFIGURATION ---
   const GRID_SIZE = 10;
   const COLORS = { darkest: '#0f380f', dark: '#306230', light: '#8bac0f', lightest: '#9bbc0f' };
 
-  // Quêtes simulées (normalement issues de l'IA)
+  // Quêtes simulées
   const quests = [
     { id: "Q1", npc: "PAPI GEORGES", target: { x: 7, y: 3 }, msg: "Salut ! Mon école était ici. Retrouve mon vieux cartable !", item: "CARTABLE 1950" },
     { id: "Q2", npc: "MAMIE MARIE", target: { x: 1, y: 8 }, msg: "Bravo ! Maintenant, cherche mon premier vélo rouge.", item: "VÉLO 1954" },
@@ -44,8 +45,20 @@ const App = () => {
 
   // --- 1. AUTHENTIFICATION ---
   useEffect(() => {
+    let authTimeout;
+
     const initAuth = async () => {
+      setLoadingMessage('Connexion anonyme...');
       try {
+        // Timeout de sécurité pour l'auth (10s)
+        authTimeout = setTimeout(() => {
+           if (!auth.currentUser) {
+             console.warn("Auth Timeout - Passage en mode hors ligne");
+             setGameState('EXPLORE'); 
+             setSyncStatus('error');
+           }
+        }, 10000);
+
         if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
           await signInWithCustomToken(auth, __initial_auth_token);
         } else {
@@ -54,17 +67,33 @@ const App = () => {
       } catch (err) {
         console.error("Auth Error:", err);
         setSyncStatus('error');
+        // En cas d'erreur fatale d'auth, on laisse jouer en local
+        setGameState('EXPLORE'); 
+      } finally {
+        clearTimeout(authTimeout);
       }
     };
+
     initAuth();
-    const unsubscribe = onAuthStateChanged(auth, setUser);
-    return () => unsubscribe();
+    
+    const unsubscribe = onAuthStateChanged(auth, (u) => {
+      setUser(u);
+      if (!u) {
+         setLoadingMessage('Attente utilisateur...');
+      }
+    });
+    return () => {
+      unsubscribe();
+      clearTimeout(authTimeout);
+    };
   }, []);
 
   // --- 2. SYNCHRONISATION FIRESTORE ---
   useEffect(() => {
     if (!user) return;
-    // Récupération des données utilisateur (Private Path Rule 1)
+    setLoadingMessage('Synchronisation des souvenirs...');
+
+    // Récupération des données utilisateur
     const userDocRef = doc(db, 'artifacts', appId, 'users', user.uid, 'settings', 'game_progress');
 
     const unsubscribe = onSnapshot(userDocRef, (docSnap) => {
@@ -73,7 +102,6 @@ const App = () => {
         setPlayerPos(data.playerPos || { x: 2, y: 2 });
         setInventory(data.inventory || []);
         setQuestIndex(data.questIndex || 0);
-        setGameState('EXPLORE');
       } else {
         // Initialisation si nouveau joueur
         setDoc(userDocRef, {
@@ -81,25 +109,29 @@ const App = () => {
           inventory: [],
           questIndex: 0,
           updatedAt: Date.now()
-        });
-        setGameState('EXPLORE');
+        }).catch(e => console.error("Create Profile Error:", e));
       }
+      setGameState('EXPLORE');
     }, (err) => {
       console.error("Firestore Listen Error:", err);
       setSyncStatus('error');
+      // On débloque le jeu même si la sync échoue
+      setGameState('EXPLORE'); 
     });
+
     return () => unsubscribe();
   }, [user]);
 
   // --- 3. SAUVEGARDE DES ACTIONS ---
   const saveProgress = async (updates) => {
-    if (!user) return;
+    if (!user || syncStatus === 'error') return;
     setSyncStatus('saving');
     try {
       const userDocRef = doc(db, 'artifacts', appId, 'users', user.uid, 'settings', 'game_progress');
       await updateDoc(userDocRef, { ...updates, updatedAt: Date.now() });
       setSyncStatus('synced');
     } catch (err) {
+      console.error("Save Error:", err);
       setSyncStatus('error');
     }
   };
@@ -118,9 +150,9 @@ const App = () => {
       setGameState('DIALOGUE');
     }
 
-    // Sauvegarde auto de la position (Throttle en prod)
+    // Sauvegarde auto de la position
     saveProgress({ playerPos: newPos });
-  }, [gameState, playerPos, currentQuest]);
+  }, [gameState, playerPos, currentQuest, user]); // Added user dep for safety
 
   const completeQuest = () => {
     const newInventory = [...inventory, currentQuest.item];
@@ -140,7 +172,13 @@ const App = () => {
       <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white font-mono">
          <div className="flex flex-col items-center gap-4">
             <CloudSync className="w-12 h-12 animate-spin text-indigo-400" />
-            <p className="text-xs uppercase tracking-widest animate-pulse">Synchronisation Cloud...</p>
+            <p className="text-xs uppercase tracking-widest animate-pulse">{loadingMessage}</p>
+            <button 
+              onClick={() => setGameState('EXPLORE')} 
+              className="mt-8 text-[10px] text-slate-500 underline hover:text-slate-300"
+            >
+              Passer l'initialisation (Mode Hors Ligne)
+            </button>
          </div>
       </div>
     );
